@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DataPulse Analytics Admin Dashboard">
+    <title>HackgeniX | Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2 class="brand">HackgeniX</h2>
+
+            <nav class="sidebar-nav">
+                <a href="#overview" class="active">Overview</a>
+                <a href="#analytics">Analytics</a>
+                <a href="#transactions">Transactions</a>
+                <a href="#reports">Reports</a>
+                <a href="#settings">Settings</a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <p>Admin Panel</p>
+                <h3>Welcome, Admin</h3>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Top Bar -->
+            <header class="topbar">
+                <div>
+                    <h1>Dashboard Overview</h1>
+                    <p>Welcome back! Here's your business summary.</p>
+                </div>
+
+                <div class="admin-profile">
+                    <span class="profile-icon">A</span>
+                    <span>Admin</span>
+                </div>
+            </header>
+
+            <!-- Statistics -->
+            <section class="stats-grid" id="overview">
+
+                <article class="stat-card">
+                    <p>Total Revenue</p>
+                    <h2>₹4,85,000</h2>
+                    <span class="positive">+12.5% this month</span>
+                </article>
+
+                <article class="stat-card">
+                    <p>Total Customers</p>
+                    <h2>2,450</h2>
+                    <span class="positive">+8.2% this month</span>
+                </article>
+
+                <article class="stat-card">
+                    <p>Total Orders</p>
+                    <h2>1,280</h2>
+                    <span class="positive">+5.7% this month</span>
+                </article>
+
+                <article class="stat-card">
+                    <p>Business Growth</p>
+                    <h2>18.6%</h2>
+                    <span class="positive">+3.4% this month</span>
+                </article>
+
+            </section>
+
+            <!-- Analytics Charts -->
+            <section class="charts-grid" id="analytics">
+
+                <article class="chart-card">
+                    <h2>Revenue Overview</h2>
+                    <p>Monthly revenue performance</p>
+
+                    <div class="bar-chart">
+                        <div class="bar-item">
+                            <div class="bar" style="--height: 45%"></div>
+                            <span>Jan</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar" style="--height: 65%"></div>
+                            <span>Feb</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar" style="--height: 55%"></div>
+                            <span>Mar</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar" style="--height: 80%"></div>
+                            <span>Apr</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar" style="--height: 70%"></div>
+                            <span>May</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar" style="--height: 95%"></div>
+                            <span>Jun</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="chart-card">
+                    <h2>Customer Growth</h2>
+                    <p>Customer performance overview</p>
+
+                    <div class="growth-chart">
+                        <div class="growth-line"></div>
+                    </div>
+
+                    <div class="chart-labels">
+                        <span>Jan</span>
+                        <span>Feb</span>
+                        <span>Mar</span>
+                        <span>Apr</span>
+                        <span>May</span>
+                        <span>Jun</span>
+                    </div>
+                </article>
+
+            </section>
+
+            <!-- Transactions Table -->
+            <section class="transactions" id="transactions">
+                <h2>Recent Transactions</h2>
+
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Customer</th>
+                                <th>Order ID</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Arun Kumar</td>
+                                <td>#DP1001</td>
+                                <td>10 Nov 2026</td>
+                                <td>₹12,500</td>
+                                <td><span class="status completed">Completed</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Praveen</td>
+                                <td>#DP1002</td>
+                                <td>09 Nov 2026</td>
+                                <td>₹8,900</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Anish</td>
+                                <td>#DP1003</td>
+                                <td>08 Nov 2026</td>
+                                <td>₹15,200</td>
+                                <td><span class="status completed">Completed</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Arjun</td>
+                                <td>#DP1004</td>
+                                <td>07 Nov 2026</td>
+                                <td>₹6,400</td>
+                                <td><span class="status cancelled">Cancelled</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer" id="reports">
+                <p>HackgeniX Analytics Dashboard | © 2026</p>
+            </footer>
+
+        </main>
+    </div>
+
+</body>
+</html>

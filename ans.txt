@@ -1,0 +1,47 @@
+
+PROJECT 3 - DATAPULSE ADMIN DASHBOARD
+
+1. Project Name:
+DataPulse - Admin Analytics Dashboard
+
+2. Technologies Used:
+HTML5
+CSS3
+CSS Grid
+Flexbox
+Media Queries
+
+3. Main Components:
+- Sidebar Navigation
+- Top Navigation Bar
+- Four Statistic Cards
+- Revenue Overview Chart
+- Customer Growth Chart
+- Recent Transactions Table
+- Footer
+
+4. CSS Concepts Used:
+- CSS Grid
+- Flexbox
+- Grid Template Columns
+- Minmax()
+- Linear Gradient
+- Hover Effects
+- CSS Transitions
+- Media Queries
+- Responsive Design
+
+5. Responsive Breakpoints:
+- Desktop: Above 1100px
+- Tablet: 800px to 1100px
+- Small Tablet: 551px to 800px
+- Mobile: 550px and below
+
+6. What I Learned:
+I learned how to create an admin dashboard using
+HTML and CSS. I practised dashboard layouts,
+statistic cards, chart visualizations, tables,
+CSS Grid, Flexbox and responsive design.
+
+7. JavaScript:
+Not used. The dashboard is built using HTML and CSS only.
